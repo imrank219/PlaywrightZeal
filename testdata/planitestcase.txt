@@ -1,0 +1,6 @@
+Test Case Title: Verify example.com heading
+
+Steps:
+1. Open the website https://www.saucedemo.com/
+2. Verify the page title is 'Swag Labs'
+3. Check that the main heading (h1) has the text 'Swag Labs'

@@ -1,0 +1,10 @@
+config:
+  target: https://thewisemangroup.com/quiz/accidental-diminisher/
+  engines:
+    playwright: 
+      launchOptions:
+        headless: false
+  processor: "./tests/artillery/login.js"
+scenarios:
+  - engine: playwright
+    testFunction: "artilleryScript"
