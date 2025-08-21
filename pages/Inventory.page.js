@@ -25,11 +25,12 @@ constructor(page){
      const backpackpricevalue = await this.backpackprice.textContent();
      console.log(backpackpricevalue);
      // Write content to a file
-     fs.writeFileSync('C:/AutoPW/testdata/price.txt', backpackpricevalue, 'utf8');
+     fs.writeFileSync('F:/ZealFW/PlaywrightZeal/testdata/price.txt', backpackpricevalue, 'utf8');
      console.log('Content written to output.txt');
      await this.addtocartbutton.click();
      await expect(this.addcarticon).toBeVisible();
      await this.shoppingcartlink.click();
+     //test
 
    }
 
